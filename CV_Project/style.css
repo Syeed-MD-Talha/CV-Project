@@ -1,0 +1,151 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(223, 231, 228);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    background-color: #E1D7C6;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.porifle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid white;
+    float: left;
+}
+
+.bio {
+    float: left;
+    padding: 30px;
+}
+
+.contact {
+    float: right;
+    padding: 30px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #3C2A21;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    color: tomato;
+    text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: rgb(9, 82, 82);
+}
+
+.clear-div {
+    clear: both;
+}
+
+hr {
+    border: black 3px solid;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+
+}
+
+/*---------------------------
+ Personal section start
+----------------------------*/
+
+.left-div {
+    width: 30%;
+    float: left;
+}
+
+.right-div {
+    width: 70%;
+    float: right;
+}
+
+.common-hr {
+    width: 100%;
+    border: solid black 1px;
+    border-bottom: none;
+    margin: 20px auto;
+}
+
+#bx {
+    width: 300px;
+    height: 50px;
+    background-color: #c7b198;
+    margin: 5px;
+    border: 5px solid #c7b198;
+    border-radius: 2%;
+
+}
+
+#bx p {
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.div-left-div {
+    float: left;
+    width: 45%;
+}
+
+.div-right-div {
+    float: left;
+    width: 45%;
+}
+
+.right-div h3 {
+    font-size: 20px;
+    color: black;
+}
+
+/* Footer start*/
+
+.bottom-container {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.bottom-container a {
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.bottom-container p {
+    margin-bottom: 0px;
+    color: white;
+    text-decoration: none;
+    padding-top: 20px;
+    font-size: 15px;
+    padding-bottom: 0px;
+}
+
+.bottom-container a:hover {
+    color: orangered;
+}
